@@ -891,3 +891,69 @@ button.nav i {
   margin-top: 1.5rem;
   font-weight: bold;
 }
+
+.consultas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: 'Georgia', serif;
+  max-width: 85%;
+}
+
+.consultas .titulo-consultas {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #3e2f1c;
+  text-align: center;
+  position: relative;
+  padding: 15px 25px;
+  background: linear-gradient(to right, #f3e9d2, #e5d2a0);
+  border-left: 6px solid #a88f56;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 0 8px 8px 0;
+}
+
+.lista-consultas {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.lista-consultas li {
+  background-color: #fdf6e3;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #a88f56;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.lista-consultas li:hover {
+  transform: scale(1.01);
+}
+
+.lista-consultas i {
+  color: #6246ea;
+  font-size: 1.4rem;
+  margin-top: 4px;
+}
+
+.lista-consultas a {
+  color: #2b2bff;
+  font-weight: bold;
+  border-bottom: 1px dashed #2b2bff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.lista-consultas a:hover {
+  color: #ff6f00;
+  border-bottom: 1px solid transparent;
+}
+
